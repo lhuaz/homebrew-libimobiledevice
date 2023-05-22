@@ -1,4 +1,4 @@
-class Libimobiledevice < Formula
+class Zslibimobiledevice < Formula
   desc "Library to communicate with iOS devices natively"
   homepage "https://www.libimobiledevice.org/"
   url "https://github.com/libimobiledevice/libimobiledevice/releases/download/1.3.0/libimobiledevice-1.3.0.tar.bz2"
