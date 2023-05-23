@@ -10,7 +10,7 @@ class Libplist < Formula
   depends_on "pkg-config" => :build
 
   def install
-    system "./configure", *std_configure_args
+    system "./configure", *std_configure_args, '--without-cython'
     system "make", "install"
   end
 end

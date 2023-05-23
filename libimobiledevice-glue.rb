@@ -11,7 +11,7 @@ class LibimobiledeviceGlue < Formula
   depends_on "libplist"
 
   def install
-    system "./configure", *std_configure_args
+    system "./configure", *std_configure_args, '--without-cython'
     system "make", "install"
   end
 
